@@ -1,12 +1,21 @@
 import random
+
 choices = ["Rock", "Paper", "Scissors"]
+
 computer = random.choice(choices)
+
 player = False
+
 cpu_score = 0
+
 player_score = 0
+
 while True:
+    
     player = input("Rock, Paper or  Scissors?").capitalize()
-    ## Conditions of Rock,Paper and Scissors
+    
+    # Conditions of Rock,Paper and Scissors
+    
     if player == computer:
         print("Tie!")
     elif player == "Rock":
@@ -39,9 +48,15 @@ while True:
 -------------------Output-------------------
 
 You win! Rock smashes Scissors
+
 You lose! Scissors cut Paper
+
 You lose! Scissors cut Paper
+
 Tie!
+
 Final Scores:
+
 CPU:2
+
 Player:1
